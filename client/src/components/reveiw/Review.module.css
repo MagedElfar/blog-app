@@ -1,0 +1,12 @@
+.review svg{
+    color: #ffc107;
+}
+
+.review span,
+.review svg{
+    font-size: 14px;
+}
+
+.review label{
+    cursor: pointer;
+}

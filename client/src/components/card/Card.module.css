@@ -1,0 +1,35 @@
+.card-image{
+    padding-top: 250px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.title a,
+.content{
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.title a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #444;
+    font-size: 25px;
+    -webkit-line-clamp: 1;
+}
+
+.date{
+    color: #888;
+    font-family: 'Varela', sans-serif;
+}
+
+.content{
+    font-family: 'Varela', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    -webkit-line-clamp: 4;
+}

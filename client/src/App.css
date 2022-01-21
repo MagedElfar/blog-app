@@ -1,0 +1,60 @@
+/*import fonts*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela&family=Varela+Round&display=swap');
+
+.josefin-font{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.lora-font{
+  font-family: 'Lora', serif;
+}
+
+.varela-font{
+  font-family: 'Varela', sans-serif;
+}
+
+.varela-round-font{
+  font-family: 'Varela Round', sans-serif;
+}
+
+/*auth form*/
+.show-hide-password{
+  position: relative;
+}
+
+.show-hide-password svg{
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+}
+
+.loading{
+  animation: spinner 1.2s linear infinite;
+  margin-right: 5px;
+}
+
+
+@keyframes spinner{
+  from{
+    transform: rotate(0);
+  } 
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.go-post-btn{
+  color: #FFF !important;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.single-post-page .post-expert{
+  display: none;
+}

@@ -1,0 +1,19 @@
+.header{
+    height: calc(100vh - 127px);
+    background-size: cover;
+    margin-top: 55px;
+    position: relative;
+}
+
+.header-title{
+    position: absolute;
+    left: 0;
+    top: -60px;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-title h1{
+    color: #444;
+    min-height: 120px;
+}

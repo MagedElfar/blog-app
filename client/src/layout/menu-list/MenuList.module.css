@@ -1,0 +1,13 @@
+.menu-list{
+    list-style: none;
+}
+
+.menu-list a{
+    font-size: 18px;
+    color: #444;
+    font-weight: 300;
+}
+
+.menu-list a:hover{
+    color: #444;
+}

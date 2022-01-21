@@ -1,0 +1,16 @@
+.page{
+    height: calc(100vh - 182px);
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: #dddddd;
+    max-width: 600px;
+    margin: auto;
+    color: #444;
+}
+
+.container p{
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+
+.file-label{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.file-label svg{
+    color: #444;
+}
+
+.file-label + input{
+    display: none;
+}
+
+.text-input{
+    width: 100%;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    padding: 0 15px;
+    color: #444;
+}
+
+.text-input:focus-visible{
+    outline: none;
+}
+
+input.text-input{
+    font-size: 30px;
+}
+
+textarea.text-input{
+    resize: none;
+    min-height: 250px;
+}
+
+.post-image{
+    width: 100%;
+    object-fit: cover;
+    max-height: 350px;
+}

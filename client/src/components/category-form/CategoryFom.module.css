@@ -1,0 +1,16 @@
+.text-input{
+    width: 100%;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+    padding: 0 15px;
+    color: #444;
+}
+
+.text-input:focus-visible{
+    outline: none;
+}
+
+input.text-input{
+    font-size: 30px;
+}
